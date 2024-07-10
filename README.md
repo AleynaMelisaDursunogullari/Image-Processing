@@ -1,7 +1,7 @@
 # Projelerim
 
-Görüntü işleme konusunda denedğim ve öğrendiğim bazı projeler
+Görüntü işleme konusunda denediğim ve öğrendiğim bazı projeler:
 
--Otomatik labellama işlemi
--Videodan Frameler çıkartma
--Framelerden video oluşturma
+- Otomatik labellama işlemi
+- Videodan frameler çıkartma
+- Framelerden video oluşturma
