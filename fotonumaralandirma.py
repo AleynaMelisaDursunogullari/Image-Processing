@@ -9,7 +9,7 @@ import os
 import shutil
 
 # İşlem yapılacak klasör yolu
-klasor_yolu = r"C:\Users\Melisa\Desktop\Yeni klasör (3)"
+klasor_yolu = r"C:\Users\Desktop\Yeni klasör (3)"
 
 # Klasördeki tüm dosyaları listele
 dosya_listesi = os.listdir(klasor_yolu)
