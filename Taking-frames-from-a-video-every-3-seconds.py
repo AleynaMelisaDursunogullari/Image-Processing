@@ -8,7 +8,7 @@ Created on Wed Jul 10 12:55:34 2024
 import cv2
 
 # Video dosyasını aç
-cap = cv2.VideoCapture(r"C:\Users\Desktop\video\WhatsApp Video-2024.mp4")
+cap = cv2.VideoCapture(r"C:\Users\Desktop\video\Video-2024.mp4")
 
 # Video fps değerini alın
 fps = cap.get(cv2.CAP_PROP_FPS)
