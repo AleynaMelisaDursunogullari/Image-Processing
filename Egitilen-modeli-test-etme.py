@@ -17,10 +17,10 @@ from ultralytics import YOLO
 import cvzone
 
 # Modeli yükleyin
-model = YOLO(r"C:\Users\Melisa\Desktop\sunum-modellerim\karışık model\train\weights\best.pt")
+model = YOLO(r"C:\train\weights\best.pt")
 
 # Görüntüyü yükleyin (Video yerine resim kullanıyoruz)
-image_path = r"C:\Users\Melisa\Desktop\4.sinif-tez\Veri-Seti\muz-elma-domat-salata-lim-patates\patates\20240920_130814.jpg"
+image_path = r"C:\Users\images.jpg"
 img = cv2.imread(image_path)
 
 # Görüntünün yüklendiğinden emin olun
@@ -71,7 +71,7 @@ else:
         cv2.destroyAllWindows()
 
         # Sonuçları kaydet
-        output_image_path = r"C:\Users\Melisa\Desktop\sunum-modellerim\sonuclar\karısık-model\deneme-14.jpg"
+        output_image_path = r"C:\Users\image.jpg"
         success = cv2.imwrite(output_image_path, img)
         if success:
             print(f"Output image saved at: {output_image_path}")
