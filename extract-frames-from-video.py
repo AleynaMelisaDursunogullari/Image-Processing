@@ -7,7 +7,7 @@ This is a temporary script file.
 
 import cv2
 
-cap=cv2.VideoCapture(r"C:\Users\Desktop\video\WhatsApp Video-2024.mp4")
+cap=cv2.VideoCapture(r"C:\Users\Desktop\video\Video-2024.mp4")
 
 sayac=10000
 
