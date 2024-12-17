@@ -1,7 +1,7 @@
 import cv2
 import os
 
-path = r"C:\Users\Melisa\Desktop\video\WhatsApp Video 2024-06-21"
+path = r"C:\Users\Desktop\video\Video2024"
 
 pre_imgs = os.listdir(path)
 print(pre_imgs)
@@ -26,7 +26,7 @@ size = list(frame.shape)
 del size[2]
 size.reverse()
 
-output_path = r"C:\Users\Melisa\Desktop\uretilen_video.mp4"  # Video dosyasının kaydedileceği yer
+output_path = r"C:\Users\Desktop\uretilen_video.mp4"  # Video dosyasının kaydedileceği yer
 video = cv2.VideoWriter(output_path, cv2_fourcc, 30, size)  # output video name, fourcc, fps, size
 
 for i in range(len(img)):
