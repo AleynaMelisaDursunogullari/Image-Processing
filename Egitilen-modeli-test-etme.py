@@ -5,13 +5,6 @@ Created on Tue Dec 10 17:16:54 2024
 @author: Melisa
 """
 
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Dec  6 10:41:55 2024
-
-@author: Melisa
-"""
-
 import cv2
 from ultralytics import YOLO
 import cvzone
