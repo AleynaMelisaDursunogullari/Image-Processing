@@ -3,9 +3,9 @@ from ultralytics import YOLO
 import cv2
 
 # Modelin yolu
-model_path = r"C:\Users\Melisa\Desktop\best(2).pt"
+model_path = r"C:\Users\Desktop\best.pt"
 # Fotoğrafların bulunduğu klasör
-image_folder = r"C:\Users\Melisa\Desktop\Photos"
+image_folder = r"C:\Users\Desktop\Photos"
 # Txt dosyalarının kaydedileceği klasör
 output_folder = os.path.join(image_folder, "labels")
 
