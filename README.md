@@ -1,7 +1,8 @@
-# Projelerim
+# My projects
 
-Görüntü işleme konusunda denediğim ve öğrendiğim bazı projeler:
+Some projects I tried and learned about image processing:
 
-- Otomatik labellama işlemi
-- Videodan frameler çıkartma
-- Framelerden video oluşturma
+- Automatic labeling process
+- Extracting frames from video
+- Creating videos from frames
+- Testing the trained model
