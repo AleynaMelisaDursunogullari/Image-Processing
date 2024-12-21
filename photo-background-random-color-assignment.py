@@ -3,7 +3,7 @@ import numpy as np
 import random
 
 # Görüntüyü yükleyelim
-image_path = r"C:\Users\Melisa\Desktop\4.sinif-tez\Veri-Seti\basparmak-sonuc\benim\validation\thumb\Hand_0000063.jpg"
+image_path = r"C:\Users\\Hand_0000063.jpg"
 image = cv2.imread(image_path)
 
 # Görüntü doğrulama
@@ -29,7 +29,7 @@ new_background[:] = random_background_color  # Rastgele renk ile arka plan
 image[white_mask == 255] = new_background[white_mask == 255]
 
 # Çıktıyı kaydedelim
-output_image_path = r"C:\Users\Melisa\Desktop\resim_with_random_background4.jpg"
+output_image_path = r"C:\Users\resim_with_random_background4.jpg"
 cv2.imwrite(output_image_path, image)
 
 print(f"Yeni arka planlı görüntü kaydedildi: {output_image_path}")
