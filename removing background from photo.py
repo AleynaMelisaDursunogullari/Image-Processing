@@ -1,8 +1,8 @@
 from rembg import remove
 
 # Giriş ve çıkış dosyalarının yollarını belirtelim
-input_path = r"C:\Users\Melisa\Desktop\melisaveri\20241202_145916.jpg"
-output_path = r"C:\Users\Melisa\Desktop\foto.jpg"
+input_path = r"C:\User\\20241202_145916.jpg"
+output_path = r"C:\Users\Desktop\foto.jpg"
 
 # Görüntüyü okuma ve işleme
 with open(input_path, 'rb') as i_:
