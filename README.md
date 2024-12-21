@@ -17,6 +17,7 @@ Some projects I tried and learned about image processing:
   <img src=https://github.com/user-attachments/assets/3b31f01b-aa07-4a9e-9630-6d6b77864350 width="300" />
 </div>
 
+
 - Change background color and remove background in photo
   
 <div style="display: flex; align-items: flex-start;">
